@@ -1,0 +1,363 @@
+* {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 0 100px;
+}
+
+.Seedra__content__header {
+    padding: 20px 0;
+}
+
+.Seedra__content__header__title_img {
+    min-width: 100px;
+    transition: 300ms;
+}
+.Seedra__content__header__title_img:hover {
+    min-width: 110px;
+}
+
+.Seedra__content__header__title_img {
+    min-width: 100px;
+}
+
+.Seedra__content__header__content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Seedra__content__header__nav {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    color: #70737c;
+}
+
+.Seedra__content__header__nav_link {
+    text-decoration: none;
+    color: #70737c;
+    font-size: 16px;
+    transition: 200ms;
+}
+.Seedra__content__header__nav_link:hover {
+    color: #359740;
+    font-size: 19px;
+    transition: 300ms;
+}
+
+.Seedra__content__header__searchs {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.Seedra__content__header__search_button {
+    border: none;
+    background: none;
+}
+
+.Seedra__content__header__searchs_input {
+    padding: 10px 20px;
+    border-radius: 40px;
+    font-size: 20px;
+}
+
+.Seedra__content__header__search_button_img {
+    min-width: 25px;
+    transition: 300ms;
+}
+.Seedra__content__header__search_button_img:hover {
+    min-width: 30px;
+}
+
+.Seedra__content__hero {
+    background: #e3e3e340;
+}
+
+.Seedra__content__hero__content {
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.Seedra__content__hero__content__title__info {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Seedra__content__hero__content__title {
+    padding: 30px;
+    background: #eaf1eb;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Seedra__content__hero__content__title__info_bigText {
+    font-size: 50px;
+    font-weight: 1000;
+}
+
+.Seedra__content__hero__content__title__info_littleText {
+    font-size: 20px;
+}
+
+.Seedra__content__hero__content__title__info__prices {
+    display: flex;
+    padding: 10px 0;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.Seedra__content__hero__content__title__info__prices_text1 {
+    font-size: 35px;
+    font-weight: 900;
+}
+.Seedra__content__hero__content__title__info__prices_text2 {
+    font-size: 25px;
+    font-weight: 100;
+    text-decoration: line-through;
+}
+
+.Seedra__content__hero__content__title__info__buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.Seedra__content__hero__content__title__info__buttons_button1 {
+    color: white;
+    background: #359740;
+    border: none;
+    border-radius: 15px;
+    padding: 12px 28px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.Seedra__content__hero__content__title__info__buttons_button2 {
+    color: #359740;
+    background: white;
+    border: none;
+    border-radius: 15px;
+    padding: 12px 28px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.Seedra__content__hero__content_img {
+    width: 100%;
+}
+
+.Seedra__content__hero__content__selection__title_text {
+    font-size: 36px;
+}
+
+.Seedra__content__hero__content__selection__title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Seedra__content__hero__content__selection__title_button {
+    border: 2px solid rgb(205, 205, 205);
+    background: none;
+    border-radius: 20px;
+    color: #359740;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.Seedra__content__footer {
+    background: white;
+    padding: 30px 0;
+}
+
+.Seedra__content__footer__content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.Seedra__content__footer__content__navs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.Seedra__content__footer__content__navs_nav {
+    text-decoration: none;
+    color: #70737c;
+    font-size: 16px;
+    transition: 200ms;
+}
+.Seedra__content__footer__content__navs_nav:hover {
+    color: #359740;
+    font-size: 19px;
+}
+
+.Seedra__content__footer__content__navs_heroNav {
+    min-width: 100px;
+    transition: 300ms;
+}
+.Seedra__content__footer__content__navs_heroNav:hover {
+    min-width: 110px;
+}
+
+.Seedra__content__footer__content__end_button {
+    border: none;
+    background: none;
+}
+
+.Seedra__content__footer__content__end_button_img {
+    min-width: 25px;
+    transition: 300ms;
+}
+
+.Seedra__content__footer__content__end_button_img:hover {
+    min-width: 30px;
+}
+
+.Seedra__content__footer__content__end__buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.Seedra__content__footer__content__end_text {
+    text-decoration: none;
+    color: #70737c;
+    font-size: 16px;
+    transition: 200ms;
+}
+
+.Seedra__content__footer__content__end_text:hover {
+    color: #359740;
+    font-size: 17px;
+}
+
+.Seedra__content__footer__content__end {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Seedra__content__hero__content__selection__filter {
+    padding: 20px 0;
+}
+
+.Seedra__content__hero__content__selection__filter__buttons_button {
+    border: 2px solid rgb(205, 205, 205);
+    background: none;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    padding: 20px;
+    gap: 10px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.Seedra__content__hero__content__selection__filter__buttons_button:hover {
+    border: 2px solid rgb(173, 173, 173);
+    font-size: 19px;
+    padding: 21px;
+}
+
+.Seedra__content__hero__content__selection__filter__blocks {
+    padding: 20px 0;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.Seedra__content__hero__content__selection__filter__buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.Seedra__content__hero__content__selection__filter__block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border: 2px solid rgb(213, 213, 213);
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.Seedra__content__hero__content__selection__filter__block:hover {
+    
+    border: 2px solid rgb(171, 171, 171);
+    
+}
+
+.Seedra__content__hero__content__selection__filter__block__rating_stars {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.Seedra__content__hero__content__selection__filter__block__rating_ratings {
+    font-size: 15px;
+    color: rgb(173, 173, 173);
+}
+
+.Seedra__content__hero__content__selection__filter__block__rating {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.Seedra__content__hero__content__selection__filter__block__name {
+    padding: 10px 0;
+    font-size: 22px;
+}
+
+.Seedra__content__hero__content__selection__filter__block__prices {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Seedra__content__hero__content__selection__filter__block__prices_button {
+    border: 2px solid rgb(173, 173, 173);
+    background: none;
+    padding: 12px;
+    border-radius: 10px;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.Seedra__content__hero__content__selection__filter__block__prices__buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.Seedra__content__info {
+    width: 100%;
+}
