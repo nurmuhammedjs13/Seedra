@@ -309,9 +309,7 @@
 }
 
 .Seedra__content__hero__content__selection__filter__block:hover {
-    
     border: 2px solid rgb(171, 171, 171);
-    
 }
 
 .Seedra__content__hero__content__selection__filter__block__rating_stars {
@@ -344,12 +342,16 @@
 }
 
 .Seedra__content__hero__content__selection__filter__block__prices_button {
-    border: 2px solid rgb(173, 173, 173);
+    border: 2px solid rgb(213, 213, 213);
     background: none;
     padding: 12px;
     border-radius: 10px;
     transition: 300ms;
     cursor: pointer;
+}
+
+.Seedra__content__hero__content__selection__filter__block__prices_button:hover {
+    border: 2px solid rgb(173, 173, 173);
 }
 
 .Seedra__content__hero__content__selection__filter__block__prices__buttons {
@@ -358,6 +360,164 @@
     gap: 10px;
 }
 
-.Seedra__content__info {
-    width: 100%;
+.Seedra__content__hero__blog__content__title_title {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: -0.05em;
+    text-align: left;
+}
+
+.Seedra__content__hero__blog__content__title_button {
+    transition: 300ms;
+    padding: 10px 20px;
+    border-radius: 15px;
+    background: none;
+    font-size: 16px;
+    border: 2px solid rgb(213, 213, 213);
+}
+
+.Seedra__content__hero__blog__content__title_button:hover {
+    border: 2px solid rgb(173, 173, 173);
+}
+
+.Seedra__content__hero__blog__content__title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 0;
+    justify-content: space-between;
+}
+
+.Seedra__content__hero__blog__content__blocks__content__little-block {
+    background: #eff2f8;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.Seedra__content__hero__blog__content__blocks__content__little-block__info_data {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.Seedra__content__hero__blog__content__blocks__content__little-block__info_title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31.5px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+.Seedra__content__hero__blog__content__blocks__content__little-block__info_button {
+    padding: 10px 30px;
+    border-radius: 10px;
+    background: white;
+    color: #359740;
+    border: none;
+    font-size: 23px;
+    width: 120px;
+}
+
+.Seedra__content__hero__blog__content__blocks__content__little-block__info_text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24.95px;
+    text-align: left;
+}
+
+.Seedra__content__hero__blog__content__blocks__content__big-block__over-block {
+    background: #eff2f8;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.Seedra__content__hero__blog__content__blocks__content__big-block {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 10px 0;
+}
+
+.Seedra__content__hero__blog__content__blocks {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.Seedra__content__hero__blog__content__blocks__content__big-block__over-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.Seedra__content__hero__blog__content__blocks__content__little-block__info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Seedra__content__hero__blog__content__blocks__content__big-block__over-block__info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Seedra__content__hero__blog__content__blocks__content__big-block__over-block__info_data {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.Seedra__content__hero__blog__content__blocks__content__big-block__over-block__info_title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31.5px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+.Seedra__content__hero__blog__content__blocks__content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Seedra__content__hero__blog__content__blocks__content__big-block__over-block__info_text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24.95px;
+    text-align: left;
+}
+
+.Seedra__content__hero__blog__content__blocks__content {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.Seedra__content__hero__blog__content__blocks__content__big-block__over-block__info_button {
+    padding: 10px 30px;
+    border-radius: 10px;
+    background: white;
+    color: #359740;
+    border: none;
+    font-size: 23px;
+    width: 120px;
+}
+
+.Seedra__content__hero__blog__content__blocks__content__mini-blocks {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.Seedra__content__hero__blog__content__blocks__content__big-block__over-block__info_img {
+width: 50%;
+}
+
+
+.Seedra__content__hero__blog{
+    padding: 20px 0;
 }
